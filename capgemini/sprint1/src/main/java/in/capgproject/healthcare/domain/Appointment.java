@@ -109,8 +109,5 @@ public class Appointment {
 		this.testResult = testResult;
 	}
 	
-	
-	
-	
 
 }

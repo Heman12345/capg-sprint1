@@ -1,5 +1,6 @@
 package in.capgproject.appointment.web;
 
+
 import java.util.List;
 import java.util.Set;
 
@@ -57,5 +58,6 @@ public class AppointmentController {
 			@RequestParam String appointmentStatus) throws Exception {
 		return appser.getApppointmentList(Integer.parseInt(diagnosticCenterid), testName, appointmentStatus);
 	}
+
 
 }
